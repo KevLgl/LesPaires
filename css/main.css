@@ -1,12 +1,12 @@
-#cards-container{
+#game{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  height: 400px;
+  width: 400px;
   
 }
-.card{
-  height: 20vh ;
-  width: 15%;
-  margin: 1em;
-  background-color: black;
+img{
+  height:100px;
+  width: 100px;
 }
