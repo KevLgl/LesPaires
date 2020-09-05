@@ -8,55 +8,22 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
-    <title>Hello, world!</title>
+    <title>Memory card game</title>
   </head>
   <body>
    <main>
-     <div id="cards-container">
-
-      <div class="card red-card" >
+    <section>
+      <h1><u>Jeu des paires</u></h1>
+      <p>Retourner deux cartes, si ces deux cartes sont identiques, alors vous venez de faire une paire.</p>
+      <p>Le but du jeu est de retourner toutes les cartes en face visible.</p>
+  
+      <strong><p>Chronomètre: <span id="chrono">00:00</span> - Nombre de paire(s): <span id="paires">0</span></p></strong>
+      <div id='alert'>Les 2 images sont différentes !</div>
+  
+      <div id="games">
+        <!-- Ici le script ce charge d'afficher les images -->
       </div>
-
-      <div class="card red-card" >
-      </div>
-
-      <div class="card blue-card" >
-      </div>
-
-      <div class="card blue-card" >
-      </div>
-
-      <div class="card yellow-card" >
-      </div>
-
-      <div class="card yellow-card">
-      </div>
-
-      <div class="card grey-card" >
-      </div>
-
-      <div class="card grey-card" >
-      </div>
-
-      <div class="card black-card" >
-      </div>
-
-      <div class="card black-card" >
-      </div>
-
-      <div class="card pink-card">
-      </div>
-      
-      <div class="card pink-card" >
-      </div>
-
-      <div class="card green-card">
-      </div>
-
-      <div class="card green-card" >
-      </div>
-     
-    </div>
+    </section>
    </main>
     <script src="js/main.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
