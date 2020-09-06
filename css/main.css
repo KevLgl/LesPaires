@@ -2,11 +2,9 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  height: 400px;
-  width: 400px;
   
 }
 img{
-  height:100px;
-  width: 100px;
+  height:25vh;
+  width: 20%;
 }
